@@ -1,4 +1,4 @@
-# Contributions-Hacktoberfest2020
+# Hacktoberfest2020-Contributions
 Make your Pull Request for Hacktoberfest 2020
 
 ### Create your Pull Requests (PRs)?
