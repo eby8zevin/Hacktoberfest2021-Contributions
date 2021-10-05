@@ -13,7 +13,7 @@ public class knapsack_01_memoization {
 			}
 		}
         
-        System.out.println(knapSack(wt, val, W, n, dp));
+        System.out.println(knapSack(wt, val, W, n, dp)); //recursive call
 	}
 	
 	private static int knapSack(int[] wt, int[] val, int W, int n, int dp[][]) {
