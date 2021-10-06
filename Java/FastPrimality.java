@@ -29,7 +29,6 @@ public class FastPrimality {
         }
 
         if (primes.containsKey(n)) {
-            System.out.println("xd");
             return primes.get(n);
         }
 
