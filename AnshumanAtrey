@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class WordList
+{
+    public static void main()
+    {
+        Scanner at = new Scanner(System.in);
+        int i,j,m,n,a=0;
+        System.out.println("Eg:- Mobile Normal Numeric Lock 0000-9999");
+        System.out.println("MINIMUM NUMBER :-");
+        n = at.nextInt();
+        System.out.println("MAXIMUM NUMBER :-");
+        m = at.nextInt();        
+        for(i=n;i<=m;i++)
+        {
+             System.out.println(i);
+            }
+        }
+    }
