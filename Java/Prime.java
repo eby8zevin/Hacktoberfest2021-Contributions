@@ -8,16 +8,20 @@ public class Prime {
         try {
             System.out.println("Enter number : ");
             int num = sc.nextInt();
-
-            for (int i = 2; i < Math.sqrt(num); i++) {
-                if (num % i == 0) {
-                    System.out.println(num + " is not Prime.");
-                    System.exit(0);
-                }
-                System.out.println(num + " is Prime.");
-            }
+            
+            System.out.println(num + checkIsPrime(num));
         } finally {
             sc.close();
         }
+    }
+    
+    private static String checkIsPrime(int num) {
+        for (int i = 2; i < Math.sqrt(num); i++) {
+            if (num % i == 0) {
+                return " is not Prime.";
+            }
+        }    
+        
+        return " is prime.";
     }
 }
