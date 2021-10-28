@@ -1,19 +1,19 @@
 // Right Triangle Star Pattern
 
-public class RightTrianglePattern   {   
-     public static void main(String args[])   {  
-       int i, j, row=6;   
+public class RightTrianglePattern   {
+     public static void main(String args[])   {
+       int i, j, row=6;
 
-       for(i=0; i<row; i++)   {   
+       for(i=0; i<row; i++)   {
 
-         for(j=0; j<=i; j++)   {   
-  
-            System.out.print("* ");   
-          }   
-      System.out.println();   
-      }   
-    }   
-}  
+         for(j=0; j<=i; j++)   {
+
+            System.out.print("* ");
+          }
+      System.out.println();
+      }
+    }
+}
 
 /*
 output-
@@ -26,3 +26,33 @@ output-
 ******
 
 */
+
+// ReversePyramid 
+
+public class ReversePyramid {
+
+		public static void main(String[] args)
+		{
+		int rows=5;
+		for (int i= 0; i<= rows-1; i++) {
+		    for (int j=0; j<=i; j++) {
+
+		      System.out.print(" ");
+		}
+		   for (int k=0; k<=rows-1-i; k++){
+		   System.out.print("*" + " ");
+		   }
+		System.out.println();
+		}
+		}
+
+	}
+output
+/*
+
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+  */
