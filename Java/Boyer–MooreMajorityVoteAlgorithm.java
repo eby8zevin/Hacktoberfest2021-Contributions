@@ -3,7 +3,7 @@ import java.util.*;
 class MyClass
 {
     
-    public static int findMajorityElement(int[] arr)
+    public static int findMajorityElementFromArray(int[] arr)
     {
         int maj = -1,i=0;
 
